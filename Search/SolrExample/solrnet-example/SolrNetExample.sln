@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrNetExample.Web", "SolrNetExample.Web\SolrNetExample.Web.csproj", "{6DFA4F87-46C5-4D44-A402-D86DF06F6CC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DFA4F87-46C5-4D44-A402-D86DF06F6CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFA4F87-46C5-4D44-A402-D86DF06F6CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFA4F87-46C5-4D44-A402-D86DF06F6CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFA4F87-46C5-4D44-A402-D86DF06F6CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C92AC0FC-FB6C-446F-9332-F14592DEFA55}
+	EndGlobalSection
+EndGlobal

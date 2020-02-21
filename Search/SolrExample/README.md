@@ -4,10 +4,11 @@ Solr 是一种可供企业使用的、基于 Lucene 的搜索服务器，它支�
 
 下载地址：https://lucene.apache.org/solr/downloads.html
 
-本文中使用的 Solr 版本：7.7.2，因为我是用的是 Windows 系统，所以主要介绍的是 Windows 下的部署方法。
+本文中使用的Solr 版本：7.7.2，因为我是用的是 Windows 系统，所以主要介绍的是 Windows 下的部署方法。
 
 #### 安装
 Solr 内置了 Jetty，所以不需要任何安装任何 Web 容器即可运行。直接通过命令行就可以启动。
+
 启动 Solr：
 ```shell
  .\solr.cmd start
@@ -17,26 +18,22 @@ Solr 内置了 Jetty，所以不需要任何安装任何 Web 容器即可运行�
  .\solr.cmd stop -all
 ```
 #### 创建 Core
-
 首先在 `server\solr` 文件夹中创建一个新的目录，然后将 `server\solr\configsets\_default` 下的 `conf` 目录复制到刚刚创建的文件夹。
 
 在浏览器中打开 `http://localhost:8983/solr/` 点击左侧的 `Core Admin` 添加 Core。
 
-![createcore](../pics/createcore.png)
+![c121b45e5a65a5ce68d1bd64709d1f63.png](pics/createcore.png)
 
 `name` 和 `instanceDir` 都改成刚刚创建的目录名称。
 
 创建好之后即可在左侧的 `Core Selector` 中找到这个 Core。
 
-![Core Selector](../pics/Core_Selector.png)
-
 现在一个 Core 就创建好了，在 Core 的面板里可以对其进行一些基本操作。
 
 Solr 的 Api 是支持通过调用接口添加数据的，但是在实际使用中我们都是从数据库中同步数据，所以我们需要为 Solr 配置数据源。
 
-![uodatedocument](../pics/uodatedocument.png)
+![c121b45e5a65a5ce68d1bd64709d1f63.png](pics/002.png)
 
-managed-schema 文件：
 在 `solrconfig.xml` 文件中找到如下内容：
 ```xml
   <!-- Request Handlers
@@ -58,11 +55,8 @@ managed-schema 文件：
   </requestHandler>
 ```
 data-config.xml 文件的大致结构如下：
-
-![dataconfig](../pics/dataconfig.png)
-
+![c121b45e5a65a5ce68d1bd64709d1f63.png](pics/dataconfig.png)
 稍后会对 data-config.xml 文件进行详细介绍。
-
 #### 配置数据源
 
 ##### 使用 SQL Server 数据源
@@ -138,9 +132,8 @@ entity 中的一些常用属性：
 * parentDeltaQuery：从本 entity 中的 deltaquery 中取得参数。
 
 dataSource 中 batchSize 属性的作用是可以在批量导入的时候限制连接数量。
-配置完成后重新加载一下 Core。
 
-![search_02](../pics/search_02.png)
+配置完成后重新加载一下 Core。
 
 #### 中文分词
 
@@ -161,54 +154,6 @@ dataSource 中 batchSize 属性的作用是可以在批量导入的时候限制�
 ```xml
 <field name="Remark" type="text_cn" indexed="true" stored="true" multiValued="false"/>
 ```
-
-##### 多字段检索
-对多个字段进行检索需要用到 `multiValued` 和 `copyField` 这两个属性。
-managed-schema 完整设置：
-```xml
-<!-- 中文分词 开始 -->
-<fieldType name="text_cn" class="solr.TextField">
-<analyzer type="index">
-  <tokenizer class="org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory"/>
-</analyzer>
-<analyzer type="query">
-  <tokenizer class="org.apache.lucene.analysis.cn.smart.HMMChineseTokenizerFactory"/>
-</analyzer>
-</fieldType>
-<!-- 中文分词 结束-->
-<field name="_root_" type="string" docValues="false" indexed="true" stored="false"/>
-<field name="_text_" type="text_general" multiValued="true" indexed="true" stored="false"/>
-<field name="_version_" type="plong" indexed="false" stored="false"/>
-<!-- 文章字段 开始-->
-<field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
-<field name="post_title" type="text_cn" uninvertible="true" indexed="true" stored="true"/>
-<field name="post_excerpt" type="text_cn" uninvertible="true" indexed="true" stored="true"/>
-<field name="post_content" type="text_cn" uninvertible="true" indexed="true" stored="true"/>
-<field name="post_date" type="pdate" uninvertible="true" indexed="true" stored="true"/>
-<field name="post_name" type="text_cn" uninvertible="true" indexed="true" stored="true"/>
-<field name="AllContent" type="text_cn" indexed="true" stored="false" multiValued="true" />
-<!-- 文章字段 结束 -->
-<!-- 多字段检索 开始 -->
-<copyField source="post_title" dest="AllContent" />
-<copyField source="post_excerpt" dest="AllContent" />
-<copyField source="post_content" dest="AllContent" />
-<!-- 多字段检索 结束 -->
-```
-由于 `defaultSearchField` 参数已经不再被支持，改用 df 参数。所以需要在 `solrconfig.xml` 设置 `df` 参数。
-```xml
-<lst name="defaults">
-  <str name="echoParams">explicit</str>
-  <int name="rows">10</int>
-  <!-- Default search field -->
-  <str name="df">AllContent</str> 
-  <!-- Change from JSON to XML format (the default prior to Solr 7.0)
-     <str name="wt">xml</str> 
-    -->
-</lst>
-```
-重建索引后再试一下，就可以搜索到了。
-
-![dataconfig](../pics/search_03.png)
 
 #### 主从部署
 Solr 复制模式，是一种在分布式环境下用于同步主从服务器的一种实现方式，因之前提到的基于 rsync 的 SOLR 不同方式部署成本过高，被 Solr 1.4 版本所替换，取而代之的就是基于 HTTP 协议的索引文件传输机制，该方式部署简单，只需配置一个文件即可。Solr 索引同步的是 Core 对 Core，以 Core 为基本同步单元。
@@ -265,11 +210,11 @@ Solr 主从同步是通过 Slave 周期性轮询来检查 Master 的版本，如
 * 3、文件被同步到了一个临时目录（`index.时间戳` 格式的文件夹名称，例如：index.20190614133600008）。旧的索引文件还存放在原来的文件夹中，同步过程中出错不会影响到 Slave，如果同步过程中有请求访问，Slave 会使用旧的索引。
 * 4、当同步结束后，Slave 就会删除旧的索引文件使用最新的索引。
 
-![index](../pics/index.png)
-
 我们项目中 6.7G 的索引文件（279 万条记录），大概只用了 12 分钟左右就同步完成了，平均每秒的同步速度大约在 10M 左右。
 
-![indexdir](../pics/indexdir.png)
+![91e9e9cb2da5ccab496d937a539838c1.png](pics/index.png)
+![348857920a50fb515d025af56f25578c.png](pics/indexdir.png)
+
 
 **注意事项：** 如果主从的数据源配置的不一致，很可能导致从服务器无法同步索引数据。
 
@@ -325,11 +270,12 @@ SolrJ 是 Solr 的官方客户端，文档地址：[https://lucene.apache.org/so
 ##### 在  DotNet 项目中使用 Solr
 
 SolrNet：https://github.com/mausch/SolrNet
-通过 Nuget 添加：
+
+通过 Nuget 添加 SolrNet：
 ```shell
-Install-Package SolrNet.Core
+Install-Package SolrNet
 ```
-定义索引对象：
+首先定义一个索引对象 `PostDoc`：
 ```csharp
     /// <summary>
     /// 文章 doc。
@@ -355,6 +301,10 @@ Install-Package SolrNet.Core
         [SolrField("post_date")]
         public DateTime PostDate { get; set; }
     }
+```
+在项目的 `Startup` 类中初始化 SolrNet：
+```csharp
+  SolrNet.Startup.Init<PostDoc>("http://localhost:8983/solr/posts");
 ```
 添加或更新文档操作：
 ```csharp
@@ -519,22 +469,17 @@ if __name__ == "__main__":
     query()
 ```
 需要注意的是在使用 `solr.add()` 和 `solr.delete` 方法以后需要执行一下 `solr.commit()` 方法，否则文档的变更不会提交。
-
 如果想获取添加或更新是否成功可以通过判断 `solr.commit()` 方法返回结果，`solr.commit()` 方法的返回结果是一个 xml 字符串：
 ```xml
-<xml version="1.0" encoding="UTF-8">
+<?xml version="1.0" encoding="UTF-8"?>
     <response>
         <lst name="responseHeader">
-            <int name="status">0</int>
-            <int name="QTime">44</int>
-    	</lst>
-    </response>
-</xml>
+        <int name="status">0</int>
+        <int name="QTime">44</int>
+    </lst>
+</response>
 ```
 `status` 的值如果是 0 就表示提交成功了。
 #### 总结
 通过简单使用和测试，就会发现搜索结果并不是很精准，比如搜索“微软”这个关键字，搜索出来的数据中有完全不包含这个关键字的内容，所以要想让搜索结果更加准确就必须对 Sorl 进行调优，Solr 中还有很多高级的用法，例如设置字段的权重、自定义中文分词词库等等，有机会我会专门写一篇这样的文章来介绍这些功能。
-
 我在 `sql` 目录里提供了数据库脚本，方便大家创建测试数据，数据是以前做的一个小站从网上抓取过来的科技新闻。
-
-项目地址：[https://github.com/weisenzcharles/WeiNote/Search/SolrExample](https://github.com/weisenzcharles/WeiNote/Search/SolrExample)
