@@ -537,4 +537,4 @@ if __name__ == "__main__":
 
 我在 `sql` 目录里提供了数据库脚本，方便大家创建测试数据，数据是以前做的一个小站从网上抓取过来的科技新闻。
 
-项目地址：[https://github.com/weisenzcharles/WeiNote/Search/SolrExample](https://github.com/weisenzcharles/WeiNote/Search/SolrExample)
+项目地址：[https://github.com/weisenzcharles/WeiNote/tree/master/Search/SolrExample](SolrExample)
