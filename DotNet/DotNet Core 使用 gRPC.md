@@ -233,15 +233,17 @@ DotNet gRPC 客户端要求服务具有受信任的证书，若要调用不受�
 ```
 #### 身份验证和授权
 
+
+
+##### 服务端
+为服务端加入身份验证也很简单，首先需要 
 ```csharp
     <ItemGroup>
         <PackageReference Include="Grpc.AspNetCore" Version="2.27.0" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
     </ItemGroup>
 ```
-
-##### 服务端
-为服务加入身份验证也很简单，首先需要 修改服务端的代码，分别在 `ConfigureServices` 方法中加入
+修改服务端的代码，分别在 `ConfigureServices` 和 `Configure` 方法中加入如下代码：
 ```csharp
     services.AddAuthorization(options =>
     {
