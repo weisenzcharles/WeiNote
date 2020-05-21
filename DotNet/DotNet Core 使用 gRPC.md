@@ -51,11 +51,11 @@ Visual Studio 2019 中已经集成了 gRPC 项目的模版，我们可以通过�
 ```
 在 `appsettings.json` 文件中多出了一个 Kestrel 节点，配置 Protocols 使用 Http2 协议。
 ```json
-"Kestrel": {
-    "EndpointDefaults": {
-      "Protocols": "Http2"
-    }
-  }
+  "Kestrel": {
+    "EndpointDefaults": {
+      "Protocols": "Http2"
+    }
+  }
 ```
 中
 服务端 `GreeterService` 类的实现如下：
