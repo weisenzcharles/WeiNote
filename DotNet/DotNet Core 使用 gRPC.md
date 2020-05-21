@@ -186,11 +186,20 @@ Uri("https://localhost:5001"));
 ```shell
 Hello Charles
 ```
-调用不安全的 gRPC 服务：
+###### 消息大小限制
+```csharp
+        services.AddGrpc(options =>
+    {
+        options.MaxReceiveMessageSize = 1 * 1024 * 1024; // 1 MB
+        options.MaxSendMessageSize = 1 * 1024 * 1024; // 1 MB
+    });
+```
+###### 调用不安全的 gRPC 服务：
 ```csharp
     AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 ```
-调用不受信任、无效证书调用 gRPC 服务可以修改客户端请求的代码：
+###### 调用不受信任、无效证书调用 gRPC 服务
+可以修改客户端请求的代码：
 ```csharp
     services.AddGrpcClient<GreeterClient>(options => options.Address = new Uri(Address)).
     ConfigurePrimaryHttpMessageHandler(provider =>
