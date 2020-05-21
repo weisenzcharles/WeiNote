@@ -233,6 +233,12 @@ DotNet gRPC 客户端要求服务具有受信任的证书，若要调用不受�
 ```
 #### 身份验证和授权
 
+```csharp
+    <ItemGroup>
+        <PackageReference Include="Grpc.AspNetCore" Version="2.27.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+    </ItemGroup>
+```
 
 ##### 服务端
 
