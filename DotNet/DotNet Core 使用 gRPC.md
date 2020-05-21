@@ -13,7 +13,7 @@ DotNet Core 官方示例：https://github.com/dotnet/AspNetCore.Docs/tree/master
 * 现代高性能轻量级 RPC 框架。
 * 约定优先的 API 开发，默认使用 Protocol Buffers 作为描述语言，允许与语言无关的实现。
 * 可用于多种语言的工具，以生成强类型的服务器和客户端。
-* 支持客户端，服务器双向流调用。
+* 支持双向流式的请求和响应，对批量处理、低延时场景友好。
 * 通过 Protocol Buffers 二进制序列化减少网络使用。
 * 使用 HTTP/2 进行传输
 
