@@ -136,6 +136,12 @@ Link="Protos\keyvaluesrore.proto">
     </Protobuf>
   </ItemGroup>
 ```
+
+- dotnet grpc add-file
+- dotnet grpc add-url
+- dotnet grpc remove
+- dotnet grpc refresh
+
 接下来修改 `Startup` 中的代码，在 `ConfigureServices(IServiceCollection services)` 方法注入 gRPC 客户端代码：
 ```csharp
 services.AddGrpcClient<GreeterClient>(options => options.Address = new 
