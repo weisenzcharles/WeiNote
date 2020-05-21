@@ -164,7 +164,17 @@ Hello Charles
 ```
 如果需要使用证书可以修改客户端请求的代码：
 ```csharp
-
+    public void ConfigureServices(IServiceCollection services)
+    {
+        services.AddGrpcClient<GreeterClient>(options => options.Address = new Uri("https://localhost:5001")).
+        ConfigurePrimaryHttpMessageHandler(provider =>
+        {
+            var handler = new SocketsHttpHandler();
+            handler.SslOptions.RemoteCertificateValidationCallback = (sender, certificate, chain, sslPolicyErrors) => true; // 允许无效、自签名证书
+            return handler;
+        });
+    }
+```
 
 
 更多的示例可以查看 gRPC DotNet 项目的 Github，里面有很多实例可以参考：https://github.com/grpc/grpc-dotnet/tree/master/examples
