@@ -232,6 +232,8 @@ DotNet gRPC 客户端要求服务具有受信任的证书，若要调用不受�
     var reply = await client.SayHelloAsync(request);
 ```
 #### 身份验证和授权
+
+
 ##### 服务端
 
 ```csharp
