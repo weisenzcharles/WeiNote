@@ -203,7 +203,7 @@ gRPC 使用每个消息的大小限制来管理传入和传出消息。 默认�
     AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 ```
 ###### 调用不受信任、无效证书调用 gRPC 服务
-DotNet gRPC 客户端要求服务具有受信任的证书，修改客户端请求的代码：
+DotNet gRPC 客户端要求服务具有受信任的证书，若要调用不受信任、无效证书调用 gRPC 服务，需要修改客户端请求的代码：
 ```csharp
     services.AddGrpcClient<GreeterClient>(options => options.Address = new Uri(Address)).
     ConfigurePrimaryHttpMessageHandler(provider =>
