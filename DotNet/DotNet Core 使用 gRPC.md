@@ -190,7 +190,7 @@ Hello Charles
 ```csharp
     AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 ```
-如果使用不受信任、无效证书调用 gRPC 服务可以修改客户端请求的代码：
+调用不受信任、无效证书调用 gRPC 服务可以修改客户端请求的代码：
 ```csharp
     services.AddGrpcClient<GreeterClient>(options => options.Address = new Uri(Address)).
     ConfigurePrimaryHttpMessageHandler(provider =>
