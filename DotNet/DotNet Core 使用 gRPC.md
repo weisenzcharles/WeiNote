@@ -187,8 +187,11 @@ Uri("https://localhost:5001"));
 Hello Charles
 ```
 ###### 消息大小限制
+到 gRPC 客户端和服务的传入消息将加载到内存中。 消息大小限制是一种有助于防止 gRPC 消耗过多资源的机制。
+gRPC 使用每个消息的大小限制来管理传入和传出消息。 默认情况下，gRPC 将传入消息限制为 4 MB。 传出消息没有限制。
+在服务器上，可以使用 AddGrpc 为应用中的所有服务配置 gRPC 消息限制：
 ```csharp
-        services.AddGrpc(options =>
+    services.AddGrpc(options =>
     {
         options.MaxReceiveMessageSize = 1 * 1024 * 1024; // 1 MB
         options.MaxSendMessageSize = 1 * 1024 * 1024; // 1 MB
