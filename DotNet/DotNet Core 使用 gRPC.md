@@ -104,9 +104,21 @@ Visual Studio 2019 中已经集成了 gRPC 项目的模版，我们可以通过�
         });
     }
 ```
-如果不适用注入的方式也可以使用调用：
+如果不想使用注入的方式也可以使用调用：
 ```csharp
+    var httpClientHandler = new HttpClientHandler();
+    var httpClient = new HttpClient(httpClientHandler);
 
+    var channel = GrpcChannel.ForAddress(Address);
+    var client = new GreeterClient(channel);
+
+    HelloRequest request = new HelloRequest
+    {
+        Name = "Charles"
+    };
+    var reply = await client.SayHelloAsync(request);
+
+    await context.Response.WriteAsync(reply.Message);
 ```
 
 gRPC 工具会根据 `proto` 文件自动生成需要使用的类，生成的类会存放在项目的 `obj\Debug\netcoreapp3.1` 目录下：
