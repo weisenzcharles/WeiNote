@@ -31,13 +31,13 @@ DotNet Core 官方示例：https://github.com/dotnet/AspNetCore.Docs/tree/master
 
 ###### gRPC 支持的语言
 目前 gRPC 已经实现了对主流的语言支持，以下语言在 gRPC 的 Github 中都提供了实现。
-![GrpcProject.png](0)
-![createcore](../pics/GrpcProject.png)
+![GrpcProject](../images/GrpcProject.png)
 
 ##### DotNet Core 使用 gRPC
 
 ###### 创建服务端
 Visual Studio 2019 中已经集成了 gRPC 项目的模版，我们可以通过这个模版快速的创建一个基于 DotNet Core 的 gRPC 项目。
+![GrpcProject](../images/GrpcProject.png)
 
 ![e7d2d2e6b976718b5f6ccecdd0f6029e.png](en-resource://database/4046:1)
 
