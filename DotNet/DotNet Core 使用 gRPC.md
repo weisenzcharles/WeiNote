@@ -162,5 +162,9 @@ Uri("https://localhost:5001"));
 ```shell
 Hello Charles
 ```
+如果需要使用证书可以修改客户端请求的代码：
+```csharp
+
+
 
 更多的示例可以查看 gRPC DotNet 项目的 Github，里面有很多实例可以参考：https://github.com/grpc/grpc-dotnet/tree/master/examples
