@@ -162,7 +162,7 @@ Uri("https://localhost:5001"));
 ```shell
 Hello Charles
 ```
-如果需要使用证书可以修改客户端请求的代码：
+如果需要使用自签名证书可以修改客户端请求的代码：
 ```csharp
     public void ConfigureServices(IServiceCollection services)
     {
