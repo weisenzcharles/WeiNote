@@ -326,5 +326,4 @@ DotNet gRPC 客户端要求服务具有受信任的证书，若要调用不受�
     var reply = await client.SayHelloAsync(request, headers);
 ```
 #### 最后
-以上就是在 DotNet Core 中使用 gRPC 的常用方法了，想深入学习可以去
-更多的示例可以查看 gRPC DotNet 项目的 Github，里面有很多实例可以参考：https://github.com/grpc/grpc-dotnet/tree/master/examples
+以上就是在 DotNet Core 中使用 gRPC 的常用方法了，想深入学习可以去查看 gRPC DotNet 项目的 Github，里面有很多实例可以参考：https://github.com/grpc/grpc-dotnet/tree/master/examples
