@@ -294,7 +294,7 @@ DotNet gRPC 客户端要求服务具有受信任的证书，若要调用不受�
     }
 ```
 ##### 客户端
-客户端的实现逻辑是在请求服务端之前先获取到 Token，在之后调用响应服务的时候将 Token 放入请求头中传入服务端，如果不传入。
+客户端的实现逻辑是在请求服务端之前先从服务端获取到 Token，在之后调用响应服务的时候将 Token 放入请求头中传入服务端，如果不传入直接请求服务端会返回 401。
 ```csharp
     var httpClient = new HttpClient();
     var httpRequest = new HttpRequestMessage
