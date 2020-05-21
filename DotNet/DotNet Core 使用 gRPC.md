@@ -294,5 +294,35 @@ DotNet gRPC 客户端要求服务具有受信任的证书，若要调用不受�
     }
 ```
 ##### 客户端
-客户端的实现逻辑是在请求服务端之前先获取到指定用户的 Token，在之后调用响应服务的时候将 Token 放入请求头中传入服务端。
+客户端的实现逻辑是在请求服务端之前先获取到 Token，在之后调用响应服务的时候将 Token 放入请求头中传入服务端，如果不传入。
+```csharp
+    var httpClient = new HttpClient();
+    var httpRequest = new HttpRequestMessage
+    {
+        RequestUri = new Uri($"{Address}/getToken?name=Charles"),
+        Method = HttpMethod.Get,
+        Version = new Version(2, 0)
+    };
+    var tokenResponse = await httpClient.SendAsync(httpRequest);
+    tokenResponse.EnsureSuccessStatusCode();
+
+    var token = await tokenResponse.Content.ReadAsStringAsync();
+    Metadata headers = null;
+    if (token != null)
+    {
+        headers = new Metadata
+        {
+            { "Authorization", $"Bearer {token}" }
+        };
+    }
+
+    var channel = GrpcChannel.ForAddress(Address);
+    var client = new GreeterClient(channel);
+
+    HelloRequest request = new HelloRequest
+    {
+        Name = "Charles"
+    };
+    var reply = await client.SayHelloAsync(request, headers);
+```
 更多的示例可以查看 gRPC DotNet 项目的 Github，里面有很多实例可以参考：https://github.com/grpc/grpc-dotnet/tree/master/examples
