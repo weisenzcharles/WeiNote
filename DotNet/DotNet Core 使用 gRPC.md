@@ -40,7 +40,8 @@ Visual Studio 2019 中已经集成了 gRPC 项目的模版，我们可以通过�
 ![GrpcProject](../images/GrpcProject.png)
 
 创建好的项目结构如下：
-![c43476107b98242deebca57363586b6f.png](en-resource://database/4054:0)
+![GrpcService](../images/GrpcService.png)
+
 这时候项目不用做任何修改就可以运行了，那么这个项目和普通的 DotNet Core 项目有什么不同呢？
 首先项目文件 `GrpcService.csproj` 中引入了 `Grpc.AspNetCore` 包。
 ```xml
@@ -110,6 +111,7 @@ gRPC 工具会根据 `proto` 文件自动生成需要使用的类，生成的类
 
 客户端项目需要手动的创建，创建方法也很简单，直接在解决方案中添加一个新的项目即可，这里我创建了一个空的 Web 项目。
 ![573be72844fb5f07de7047321cbae028.png](en-resource://database/4052:0)
+![GrpcClient](../images/GrpcClient.png)
 
 项目创建好了以后首先要把 `proto` 文件添加到项目中，这里需要用到 `dotnet-grpc` 这个工具。
 在命令行下安装 gRPC 工具：
