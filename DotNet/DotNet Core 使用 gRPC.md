@@ -105,12 +105,10 @@ Visual Studio 2019 中已经集成了 gRPC 项目的模版，我们可以通过�
     }
 ```
 gRPC 工具会根据 `proto` 文件自动生成需要使用的类，生成的类会存放在项目的 `obj\Debug\netcoreapp3.1` 目录下：
-![944b8be5f290324d4a891dfe83ccfa8a.png](en-resource://database/4056:0)
-
+![GrpcServiceClass](../images/GrpcServiceClass.png)!
 
 
 客户端项目需要手动的创建，创建方法也很简单，直接在解决方案中添加一个新的项目即可，这里我创建了一个空的 Web 项目。
-![573be72844fb5f07de7047321cbae028.png](en-resource://database/4052:0)
 ![GrpcClient](../images/GrpcClient.png)
 
 项目创建好了以后首先要把 `proto` 文件添加到项目中，这里需要用到 `dotnet-grpc` 这个工具。
