@@ -104,6 +104,8 @@ Visual Studio 2019 中已经集成了 gRPC 项目的模版，我们可以通过�
         });
     }
 ```
+如果不适用注入
+
 gRPC 工具会根据 `proto` 文件自动生成需要使用的类，生成的类会存放在项目的 `obj\Debug\netcoreapp3.1` 目录下：
 ![GrpcServiceClass](../images/GrpcServiceClass.png)!
 
