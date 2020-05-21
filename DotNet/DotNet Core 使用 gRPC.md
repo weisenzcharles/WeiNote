@@ -168,10 +168,11 @@ Uri("https://localhost:5001"));
 ```shell
 Hello Charles
 ```
+调用不安全的 gRPC 服务：
 ```csharp
     AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 ```
-如果使用自签名证书可以修改客户端请求的代码：
+如果使用不受信任、无效证书调用 gRPC 服务可以修改客户端请求的代码：
 ```csharp
     public void ConfigureServices(IServiceCollection services)
     {
