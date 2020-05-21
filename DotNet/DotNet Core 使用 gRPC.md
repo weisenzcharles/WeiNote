@@ -188,7 +188,7 @@ Hello Charles
 ```
 ###### 限制消息大小
 消息大小限制是一种有助于防止 gRPC 消耗过多资源的机制。gRPC 使用每个消息的大小限制来管理传入和传出消息。 默认情况下，gRPC 将传入消息限制为 4 MB。 传出消息没有限制。
-在服务器上，可以使用 AddGrpc 为应用中的所有服务配置 gRPC 消息限制：
+在服务端上，可以使用 AddGrpc 为应用中的所有服务配置 gRPC 消息限制：
 ```csharp
     services.AddGrpc(options =>
     {
@@ -231,8 +231,6 @@ DotNet gRPC 客户端要求服务具有受信任的证书，若要调用不受�
     var reply = await client.SayHelloAsync(request);
 ```
 #### 身份验证和授权
-
-
 
 ##### 服务端
 为服务端加入身份验证也很简单，首先需要为项目引入 `Microsoft.AspNetCore.Authentication.JwtBearer` 这个包。
