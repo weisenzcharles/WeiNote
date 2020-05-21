@@ -294,5 +294,5 @@ DotNet gRPC 客户端要求服务具有受信任的证书，若要调用不受�
     }
 ```
 ##### 客户端
-客户端的实现逻辑是在请求服务端之前先获取到指定用户的 Token，
+客户端的实现逻辑是在请求服务端之前先获取到指定用户的 Token，在之后调用响应服务的时候
 更多的示例可以查看 gRPC DotNet 项目的 Github，里面有很多实例可以参考：https://github.com/grpc/grpc-dotnet/tree/master/examples
