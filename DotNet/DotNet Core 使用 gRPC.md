@@ -163,4 +163,4 @@ Uri("https://localhost:5001"));
 Hello Charles
 ```
 
-更多的示例可以查看 gRPC D	otnet
+更多的示例可以查看 gRPC DotNet 项目的 Github，里面有很多实例可以参考：https://github.com/grpc/grpc-dotnet/tree/master/examples
