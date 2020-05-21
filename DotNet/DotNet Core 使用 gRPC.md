@@ -162,3 +162,5 @@ Uri("https://localhost:5001"));
 ```shell
 Hello Charles
 ```
+
+更多的示例可以查看 gRPC D	otnet
