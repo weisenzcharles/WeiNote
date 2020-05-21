@@ -136,7 +136,7 @@ Link="Protos\keyvaluesrore.proto">
     </Protobuf>
   </ItemGroup>
 ```
-dotnet-grpc 还有
+dotnet-grpc 除了以上用法还支持以下命令，详细用法可以查阅文档。
 - dotnet grpc add-file
 - dotnet grpc add-url
 - dotnet grpc remove
