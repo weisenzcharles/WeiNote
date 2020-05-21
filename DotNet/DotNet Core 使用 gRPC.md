@@ -261,7 +261,25 @@ DotNet gRPC 客户端要求服务具有受信任的证书，若要调用不受�
 
     #endregion
 ```
+```csharp
+    #region 身份验证和授权
 
+    app.UseAuthentication();
+    app.UseAuthorization();
+
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapGrpcService<GreeterService>();
+
+        endpoints.MapGet("/getToken", context =>
+        {
+            return context.Response.WriteAsync(GenerateJwtToken(context.Request.Query["name"]));
+        });
+    });
+
+    #endregion
+```
+生成 Token：
 
 
 更多的示例可以查看 gRPC DotNet 项目的 Github，里面有很多实例可以参考：https://github.com/grpc/grpc-dotnet/tree/master/examples
