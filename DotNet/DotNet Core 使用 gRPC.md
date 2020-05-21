@@ -30,7 +30,7 @@ DotNet Core 官方示例：https://github.com/dotnet/AspNetCore.Docs/tree/master
 * 进程间通信：进程必须承载 HTTP/2 才能接受传入的 gRPC 调用，对于 Windows，进程间通信管道是一种更快速的方法。
 
 ###### gRPC 支持的语言
-目前 gRPC 已经实现了对主流的语言支持，以下语言在 gRPC 的 Github 中都提供了实现。
+目前 gRPC 已经实现了对主流语言的支持，以下语言在 gRPC 的 Github 中都提供了实现。
 
 ![GrpcLang](../images/GrpcLang.png)
 ##### DotNet Core 使用 gRPC
