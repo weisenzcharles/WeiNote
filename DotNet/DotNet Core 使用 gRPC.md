@@ -174,16 +174,13 @@ Hello Charles
 ```
 如果使用不受信任、无效证书调用 gRPC 服务可以修改客户端请求的代码：
 ```csharp
-    public void ConfigureServices(IServiceCollection services)
+    services.AddGrpcClient<GreeterClient>(options => options.Address = new Uri(Address)).
+    ConfigurePrimaryHttpMessageHandler(provider =>
     {
-        services.AddGrpcClient<GreeterClient>(options => options.Address = new Uri("https://localhost:5001")).
-        ConfigurePrimaryHttpMessageHandler(provider =>
-        {
-            var handler = new SocketsHttpHandler();
-            handler.SslOptions.RemoteCertificateValidationCallback = (sender, certificate, chain, sslPolicyErrors) => true; // 允许无效、自签名证书
-            return handler;
-        });
-    }
+        var handler = new SocketsHttpHandler();
+        handler.SslOptions.RemoteCertificateValidationCallback = (sender, certificate, chain, sslPolicyErrors) => true; // 允许不受信任、无效证书
+        return handler;
+    });
 ```
 #### 身份验证和授权
 
