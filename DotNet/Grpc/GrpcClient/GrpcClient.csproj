@@ -9,5 +9,8 @@
   </ItemGroup>
   <ItemGroup>
     <Protobuf Include="..\GrpcService\Protos\greet.proto" Link="Protos\greet.proto" />
+    <Protobuf Include="D:/Program Files/Git/Protos/keyvaluesrore.proto" Link="Protos\keyvaluesrore.proto">
+      <SourceUrl>https://raw.githubusercontent.com/grpc/grpc/master/examples/protos/keyvaluestore.proto</SourceUrl>
+    </Protobuf>
   </ItemGroup>
 </Project>
