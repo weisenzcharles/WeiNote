@@ -168,6 +168,9 @@ Uri("https://localhost:5001"));
 ```shell
 Hello Charles
 ```
+```csharp
+    AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
+```
 如果使用自签名证书可以修改客户端请求的代码：
 ```csharp
     public void ConfigureServices(IServiceCollection services)
