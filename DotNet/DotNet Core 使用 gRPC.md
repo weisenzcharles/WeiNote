@@ -6,7 +6,7 @@ gRPC（gRPC Remote Procedure Calls）是一个由 Google 开源的，跨语言�
 
 Github：https://github.com/grpc/grpc
 
-微软官方示例：https://github.com/dotnet/AspNetCore.Docs/tree/master/aspnetcore/grpc
+DotNet Core 官方示例：https://github.com/dotnet/AspNetCore.Docs/tree/master/aspnetcore/grpc
 
 ###### gRPC 的主要优点
 
