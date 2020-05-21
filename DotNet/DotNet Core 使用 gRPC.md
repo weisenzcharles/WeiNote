@@ -198,11 +198,12 @@ gRPC 使用每个消息的大小限制来管理传入和传出消息。 默认�
     });
 ```
 ###### 调用不安全的 gRPC 服务：
+若要使用 .NET Core 客户端调用不安全的 gRPC 服务，需要其他配置。 gRPC 客户端必须将 `System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport` 开关设置为 true 并在服务器地址中使用 http：
 ```csharp
     AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
 ```
 ###### 调用不受信任、无效证书调用 gRPC 服务
-可以修改客户端请求的代码：
+DotNet gRPC 客户端要求服务具有受信任的证书。修改客户端请求的代码：
 ```csharp
     services.AddGrpcClient<GreeterClient>(options => options.Address = new Uri(Address)).
     ConfigurePrimaryHttpMessageHandler(provider =>
