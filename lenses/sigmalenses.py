@@ -13,8 +13,9 @@ import requests
 import xlwt
 from enum import Enum
 
-Specification = Enum('specification', ('镜头结构', '视角（APS-C 画幅）', '光圈叶片数', '最小光圈', '最近对焦距离',
-                               '最大放大倍率', '滤镜尺寸', '尺寸', '重量', '视角（35mm）', '体积', '最大直径', '配件', '版本号'))
+Specification = Enum('specification', ('镜头结构', '视角（APS-C 画幅）', '视角（35mm）', '光圈叶片数', '最小光圈', '最近对焦距离',
+                                       '最大放大倍率', '滤镜尺寸', '尺寸', '重量', '体积', '最大直径', '滤色片口径', '卡口', '配件', '版本号'))
+Mount = Enum('Mount', ('E-Mount', 'F-Mount', 'EF-Mount', 'L-Mount'))
 
 
 def spiderLensesInfo(wb, concept_node: str):
@@ -29,22 +30,34 @@ def spiderLenses(wb, sheet, concept_node: str):
     '''
     处理镜头列表
     '''
-    for name, member in Specification.__members__.items():
-        print(name, '=>', member, ',', member.value)
+
     lenses_nodes = concept_node.find_all('li')
-    # for i in range(0, len(lenses_nodes)):
-    #     print(lenses_nodes[i].get_text())
-    #     url = 'http://www.sigma-photo.com.cn' + \
-    #         lenses_nodes[i].find('a').attrs['href'] + 'specifications/'
-    #     request = requests.get(url)
-    #     soup = bs(request.text, "html.parser", from_encoding="utf-8")
-    #     specification_node = soup.find('section', id='specifications')
-    #     name = soup.find('h1', class_='fac-item-nav-header')
-    #     sheet.write(i, 0, name)
-    #     tables_node = specification_node.find_all('tr')
-    #     for j in range(0, len(tables_node)):
-    #         print(tables_node[j].get_text())
-    #         sheet.write(i, j + 1, tables_node[j].get_text())
+    for i in range(0, len(lenses_nodes)):
+        print('=================================================')
+        print('镜头名称', '=>', lenses_nodes[i].find('b').get_text())
+        url = 'http://www.sigma-photo.com.cn' + \
+            lenses_nodes[i].find('a').attrs['href'] + 'specifications/'
+        request = requests.get(url)
+        soup = bs(request.text, "html.parser", from_encoding="utf-8")
+        specification_node = soup.find('section', id='specifications')
+        name = soup.find('h1', class_='fac-item-nav-header')
+        sheet.write(i, 0, name)
+        tables_node = specification_node.find_all('tr')
+        # print('节点总数：' + str(len(tables_node)))
+        for j in range(0, len(tables_node)):
+            # print(tables_node[j].find_all('td'))
+            td_nodes = tables_node[j].find_all('td')
+            if len(td_nodes) > 1:
+                specification_name = td_nodes[0].get_text()
+                specification_text = td_nodes[1].get_text()
+            else:
+                specification_name = tables_node[j].find('th').get_text()
+                specification_text = td_nodes[0].get_text()
+
+            print(specification_name, '=>', specification_text)
+            # for name, member in Specification.__members__.items():
+            #     print(name, '=>', member, ',', member.value)
+            #     sheet.write(i, j + 1, tables_node[j].get_text())
 
 
 def spiderConcept(note: str):
@@ -52,6 +65,23 @@ def spiderConcept(note: str):
     处理镜头分类 
     """
     print('抓取列表：%s' % note)
+
+
+def replaceText(text: str):
+    """
+    格式化文本
+    """
+    # 匹配英文临近中文
+    reg = '/([A-Za-z])((<[^<]*>)*[\u4e00-\u9fa5]+)/gi'
+    text = text.replace(reg, "$1 $2")
+    # 匹配数字临近中文
+    p2 = '/([0-9])([\u4e00-\u9fa5]+)/gi'
+    text = text.replace(p2, "$1 $2")
+    # 匹配中文临近数字
+    p3 = '/([\u4e00-\u9fa5]+)([0-9])/gi'
+    text = text.replace(p3, "$1 $2")
+    p4 = '/([\u4e00-\u9fa5]+(<[^<]*>)*)([A-Za-z])/gi'
+    text = text.replace(p4, "$1 $3")
 
 
 if __name__ == "__main__":
