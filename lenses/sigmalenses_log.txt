@@ -47,3 +47,16 @@
 2020-07-14 17:10:31,337 - __main__ - INFO - Spider Start.
 2020-07-14 17:12:14,232 - __main__ - INFO - Spider Start.
 2020-07-14 17:12:53,324 - __main__ - INFO - Spider Start.
+2020-07-15 10:42:56,154 - __main__ - INFO - Spider Start.
+2020-07-15 11:16:22,165 - __main__ - INFO - Spider Start.
+2020-07-15 11:16:44,168 - __main__ - INFO - Spider Start.
+2020-07-15 11:40:22,058 - __main__ - INFO - Spider Start.
+2020-07-15 13:13:16,741 - __main__ - INFO - Spider Start.
+2020-07-15 13:13:44,776 - __main__ - INFO - Spider Start.
+2020-07-15 13:16:17,798 - __main__ - INFO - Spider Start.
+2020-07-15 13:17:57,289 - __main__ - INFO - Spider Start.
+2020-07-15 13:19:58,515 - __main__ - INFO - Spider Start.
+2020-07-15 13:22:52,274 - __main__ - INFO - Spider Start.
+2020-07-15 13:36:25,938 - __main__ - INFO - Spider Start.
+2020-07-15 13:46:36,617 - __main__ - INFO - Spider Start.
+2020-07-15 14:44:22,952 - __main__ - INFO - Spider Start.
