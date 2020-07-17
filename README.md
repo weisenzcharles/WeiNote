@@ -12,7 +12,9 @@
 1、[一个 Python 实现抓取镜头信息的爬虫](https://github.com/weisenzcharles/WeiNote/tree/master/lenses)
 
 #### Java
+1、[Google Guava 中布隆过滤器的使用](/Java/Google%20Guava%20中布隆过滤器的使用.md)
 
+2、[Java 实现简单的 RPC 框架](/Java/Java%20实现简单的%20RPC%20框架.md)
 #### Spring Boot
 1、[Spring Boot 整合 JPA 使用多个数据源](/Spring%20Boot/Spring%20Boot%20整合%20JPA%20使用多个数据源.md)
 
