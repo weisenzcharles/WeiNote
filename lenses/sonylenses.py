@@ -17,6 +17,8 @@ Specification = Enum('specification', ('镜头结构', '视角（APS-C 画幅）
                                        '最大放大倍率', '滤镜尺寸', '尺寸', '重量', '体积', '最大直径', '滤色片口径', '卡口', '配件', '版本号'))
 Mount = Enum('Mount', ('E-Mount', 'F-Mount', 'EF-Mount', 'L-Mount'))
 
+Api_Url = 'https://www.sonystyle.com.cn/pim/out?method=findMasterDataList&sku8Ds=P32848486'
+
 
 def spiderLensesInfo(wb, concept_node: str):
     '''
@@ -31,40 +33,44 @@ def spiderLenses(wb, sheet, concept_node: str):
     处理镜头列表
     '''
     lenses_nodes = concept_node.find_all('li')
-    a = concept_node.find_all('img')
-    print(a)
+    # a = concept_node.find_all('img')
+    # print(a)
+    sku_list = []
     for i in range(0, len(lenses_nodes)):
         print('=================================================')
         print('镜头名称', '=>', lenses_nodes[i].find(
-            'a', class_='pd_title').get_text())
-        print(lenses_nodes[i])
-        alt = lenses_nodes[i].find('img').attrs['alt']
+            'a', class_='pd_title').get_text(), i)
+        div = lenses_nodes[i].find('div', 'block-item-div')
+        # print(div.attrs['sku'])
+        sku_list.append(div.attrs['sku'])
+        # alt = lenses_nodes[i].find('img').attrs['alt']
+    for sku in sku_list:
+        print('=>', sku)
+        # url = 'https://www.sonystyle.com.cn/products/lenses/' + alt.lower() + '/' + \
+        #     alt.lower()+'.html'
+        # if url is None:
+        #     request = requests.get(url)
+        #     print(url)
+        #     soup = bs(request.text, "html.parser", from_encoding="utf-8")
+        #     specification_node = soup.find('section', id='specifications')
+        #     name = soup.find('h1', class_='fac-item-nav-header')
+        #     sheet.write(i, 0, name)
+        #     tables_node = specification_node.find_all('tr')
+        #     # print('节点总数：' + str(len(tables_node)))
+        #     for j in range(0, len(tables_node)):
+        #         # print(tables_node[j].find_all('td'))
+        #         td_nodes = tables_node[j].find_all('td')
+        #         if len(td_nodes) > 1:
+        #             specification_name = td_nodes[0].get_text()
+        #             specification_text = td_nodes[1].get_text()
+        #         else:
+        #             specification_name = tables_node[j].find('th').get_text()
+        #             specification_text = td_nodes[0].get_text()
 
-        url = 'https://www.sonystyle.com.cn/products/lenses/'+alt.lower()+'/' + \
-            alt.lower()+'.html'
-        if url is None:
-            request = requests.get(url)
-            print(url)
-            soup = bs(request.text, "html.parser", from_encoding="utf-8")
-            specification_node = soup.find('section', id='specifications')
-            name = soup.find('h1', class_='fac-item-nav-header')
-            sheet.write(i, 0, name)
-            tables_node = specification_node.find_all('tr')
-            # print('节点总数：' + str(len(tables_node)))
-            for j in range(0, len(tables_node)):
-                # print(tables_node[j].find_all('td'))
-                td_nodes = tables_node[j].find_all('td')
-                if len(td_nodes) > 1:
-                    specification_name = td_nodes[0].get_text()
-                    specification_text = td_nodes[1].get_text()
-                else:
-                    specification_name = tables_node[j].find('th').get_text()
-                    specification_text = td_nodes[0].get_text()
-
-                print(specification_name, '=>', specification_text)
-                # for name, member in Specification.__members__.items():
-                #     print(name, '=>', member, ',', member.value)
-                #     sheet.write(i, j + 1, tables_node[j].get_text())
+        #         print(specification_name, '=>', specification_text)
+        #         # for name, member in Specification.__members__.items():
+        #         #     print(name, '=>', member, ',', member.value)
+        #         #     sheet.write(i, j + 1, tables_node[j].get_text())
 
 
 def spiderConcept(note: str):
