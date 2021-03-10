@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402f1a93-077d-4db0-a4c4-d669f3e97f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/learningnotes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/charles/learningnodes/springaop/model/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/charles/learningnodes/springaop/model/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/resources/test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop/src/test/java/com/charles/learningnodes/springaop/BeanTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/charles/learningnodes/springaop/MyBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/charles/learningnodes/springaop/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/charles/learningnodes/springaop/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/java/com/charles/learningnodes/springaop/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop/src/test/java/com/charles/learningnodes/springaop/BeanLifeCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/charles/learning/JVMTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +51,9 @@
     <option name="height" value="733" />
   </component>
   <component name="ProjectId" id="1pT4q4PX659f9oRY1C7QM3wLhTs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -112,7 +112,20 @@
       <recent name="com.charles.learningnodes.springaop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BeanTest">
+  <component name="RunManager" selected="Application.BeanLifeCycle">
+    <configuration name="BeanLifeCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.charles.learningnodes.springaop.BeanLifeCycle" />
+      <module name="spring-aop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.charles.learningnodes.springaop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BeanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.charles.learningnodes.springaop.BeanTest" />
       <module name="spring-aop" />
@@ -174,6 +187,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanLifeCycle" />
         <item itemvalue="Application.BeanTest" />
         <item itemvalue="Application.JVMTest" />
         <item itemvalue="Application.Foo" />
@@ -196,7 +210,7 @@
       <workItem from="1611930739345" duration="40000" />
       <workItem from="1615193937524" duration="240000" />
       <workItem from="1615194317537" duration="1637000" />
-      <workItem from="1615264317421" duration="8443000" />
+      <workItem from="1615264317421" duration="14533000" />
     </task>
     <servers />
   </component>
@@ -285,11 +299,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.4/spring-context-5.3.4-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>618</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.4/spring-context-5.3.4-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>566</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -328,6 +337,41 @@
           <line>82</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java</url>
+          <line>255</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4-sources.jar!/org/springframework/beans/factory/support/AbstractBeanDefinitionReader.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java</url>
+          <line>320</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.4/spring-context-5.3.4-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.4/spring-context-5.3.4-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>551</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>981</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.4/spring-context-5.3.4-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>1449</line>
@@ -340,6 +384,7 @@
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.beans.factory.xml.XmlBeanDefinitionReader$1" memberName="this$0" />
         <PinnedItemInfo parentTag="java.lang.Class" memberName="name" />
       </pinned-members>
     </pin-to-top-manager>
