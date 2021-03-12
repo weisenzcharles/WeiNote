@@ -10,9 +10,30 @@ namespace AOPStaticProxy.Proxy
 {
     public class UserProxy : IUserService
     {
+        private IUserService _userService;
+
+        public UserProxy()
+        {
+            _userService = new UserService();
+        }
+
         public void Register(User user)
         {
-            throw new NotImplementedException();
+            Before();
+
+            _userService.Register(user);
+
+            After();
+        }
+
+        private void Before()
+        {
+            Console.WriteLine("注册之前的逻辑！");
+        }
+
+        private void After()
+        {
+            Console.WriteLine("注册之后的逻辑！");
         }
     }
 }
