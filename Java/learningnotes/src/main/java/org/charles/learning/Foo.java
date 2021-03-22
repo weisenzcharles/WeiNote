@@ -10,9 +10,15 @@ package org.charles.learning;
 //}
 
 
+import java.sql.Array;
+import java.util.ArrayList;
+
 public class Foo {
     static boolean boolValue;
     public static void main(String[] args) {
+
+        ArrayList arrayList = new ArrayList();
+
         boolValue = true; // 将这个true替换为2或者3，再看看打印结果
         if (boolValue) System.out.println("Hello, Java!");
         if (boolValue == true) System.out.println("Hello, JVM!");

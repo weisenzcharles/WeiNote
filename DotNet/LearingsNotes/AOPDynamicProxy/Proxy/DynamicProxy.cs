@@ -35,7 +35,7 @@ namespace AOPDynamicProxy.Proxy
         /// <summary>
         /// 代理类调用方法。
         /// </summary>
-        /// <param name="msg">要执行的方法</param>
+        /// <param name="msg">要执行的方法。</param>
         /// <returns></returns>
         public override IMessage Invoke(IMessage msg)
         {

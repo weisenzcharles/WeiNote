@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402f1a93-077d-4db0-a4c4-d669f3e97f6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/AOPStaticProxy.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/AOPStaticProxy.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/Proxy/UserProxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/Proxy/UserProxy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/LearingsNotes.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../DotNet/LearingsNotes/LearingsNotes.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPDynamicProxy/Proxy/DynamicProxy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPDynamicProxy/Proxy/DynamicProxy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/test/java/com/charles/learningnodes/springaop/BeanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/test/java/com/charles/learningnodes/springaop/BeanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/charles/learning/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/charles/learning/Foo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -209,7 +207,7 @@
       <workItem from="1611930739345" duration="40000" />
       <workItem from="1615193937524" duration="240000" />
       <workItem from="1615194317537" duration="1637000" />
-      <workItem from="1615264317421" duration="17587000" />
+      <workItem from="1615264317421" duration="23862000" />
     </task>
     <servers />
   </component>
@@ -377,9 +375,14 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Program Files/Java/OpenJDK/src.zip!/java/util/ArrayList.java</url>
-          <line>461</line>
-          <option name="timeStamp" value="33" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java</url>
+          <line>181</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.4/spring-context-5.3.4-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
@@ -388,6 +391,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReader.java</url>
+          <line>90</line>
+          <properties class="org.springframework.beans.factory.support.BeanDefinitionReader" method="loadBeanDefinitions">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
