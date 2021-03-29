@@ -31,3 +31,7 @@ Java/learningnotes/target/classes/org/charles/learning/parametertrans/parametert
 Java/learningnotes/dubbo-demo/target/dependencies.txt
 Java/learningnotes/.idea/.name
 Java/learningnotes/.idea/uiDesigner.xml
+Java/learningnotes/java-demo/jvm-class-loader/target/classes/org/charles/learning/classloader/ClassLoaderTest.class
+Java/learningnotes/java-demo/jvm-class-loader/target/classes/org/charles/learning/classloader/SubClass.class
+Java/learningnotes/java-demo/jvm-class-loader/target/classes/org/charles/learning/classloader/SuperClass.class
+Java/learningnotes/java-demo/jvm-class-loader/target/classes/org/charles/learning/classloader/SuperInter.class
