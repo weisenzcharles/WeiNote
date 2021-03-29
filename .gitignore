@@ -25,3 +25,9 @@ bld/
 # Visual Studio 2015 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the
+Java/learningnotes/target/classes/org/charles/learning/Foo.class
+Java/learningnotes/target/classes/org/charles/learning/JVMTest.class
+Java/learningnotes/target/classes/org/charles/learning/parametertrans/parametertrans.class
+Java/learningnotes/dubbo-demo/target/dependencies.txt
+Java/learningnotes/.idea/.name
+Java/learningnotes/.idea/uiDesigner.xml
