@@ -6,7 +6,8 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd
         http://code.alibabatech.com/schema/dubbo
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
     <!--服务发布的配置，需要暴露的服务接口-->
-    <dubbo:service interface="org.charles.learning.dubboprovider.service.ProviderService" ref="providerService"/>
+    <dubbo:service interface="org.charles.learning.dubboservice.DubboService" ref="providerService"/>
 
 </beans>

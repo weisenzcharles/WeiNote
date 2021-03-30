@@ -8,5 +8,6 @@
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
     <!--服务发布的配置，需要暴露的服务接口-->
-    <dubbo:service interface="org.charles.learning.dubboconsumer.service.ProviderService" ref="providerService"/>
+    <dubbo:reference id="consumerService" check="false"
+                     interface="org.charles.learning.dubboservice.DubboService"/>
 </beans>

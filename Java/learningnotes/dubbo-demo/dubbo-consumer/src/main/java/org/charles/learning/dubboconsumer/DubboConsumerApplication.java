@@ -17,17 +17,4 @@ public class DubboConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(DubboConsumerApplication.class, args);
     }
-
-
-//    @RestController
-//    public class DemoConsumerController {
-//
-//        @Resource
-//        private DemoService demoService;
-//
-//        @RequestMapping("/sayHello")
-//        public String sayHello(@RequestParam String name) {
-//            return demoService.sayHello(name);
-//        }
-//    }
 }

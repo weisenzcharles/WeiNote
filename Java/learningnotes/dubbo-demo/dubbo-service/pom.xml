@@ -7,9 +7,14 @@
         <groupId>org.charles.learning</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dubbo-api</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
+
+    <groupId>org.charles.learning</groupId>
+    <artifactId>dubbo-service</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>

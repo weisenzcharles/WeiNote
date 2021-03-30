@@ -46,7 +46,7 @@
     <modules>
         <module>dubbo-provider</module>
         <module>dubbo-consumer</module>
-        <module>dubbo-api</module>
+        <module>dubbo-service</module>
     </modules>
 
     <dependencies>
@@ -97,91 +97,5 @@
     </dependencies>
 
 
-    <!--    <dependencyManagement>-->
-    <!--        <dependencies>-->
-    <!--            <dependency>-->
-    <!--                <groupId>org.springframework.boot</groupId>-->
-    <!--                <artifactId>spring-boot-starter-test</artifactId>-->
-    <!--                <scope>test</scope>-->
-    <!--                <version>${org_springframework_boot}</version>-->
-    <!--            </dependency>-->
-    <!--            <dependency>-->
-    <!--                <groupId>org.springframework.boot</groupId>-->
-    <!--                <artifactId>spring-boot-starter-web</artifactId>-->
-    <!--                <version>${org_springframework_boot}</version>-->
-    <!--            </dependency>-->
-
-
-    <!--            <dependency>-->
-    <!--                <groupId>com.alibaba</groupId>-->
-    <!--                <artifactId>fastjson</artifactId>-->
-    <!--                <version>${fastjson_version}</version>-->
-    <!--            </dependency>-->
-
-    <!--            <dependency>-->
-    <!--                <groupId>org.javassist</groupId>-->
-    <!--                <artifactId>javassist</artifactId>-->
-    <!--                <version>${javassist_version}</version>-->
-    <!--            </dependency>-->
-    <!--            <dependency>-->
-    <!--                <groupId>org.apache.zookeeper</groupId>-->
-    <!--                <artifactId>zookeeper</artifactId>-->
-    <!--                <version>${zookeeper_version}</version>-->
-    <!--                <exclusions>-->
-    <!--                    <exclusion>-->
-    <!--                        <artifactId>slf4j-log4j12</artifactId>-->
-    <!--                        <groupId>org.slf4j</groupId>-->
-    <!--                    </exclusion>-->
-    <!--                    <exclusion>-->
-    <!--                        <artifactId>log4j</artifactId>-->
-    <!--                        <groupId>log4j</groupId>-->
-    <!--                    </exclusion>-->
-    <!--                </exclusions>-->
-    <!--            </dependency>-->
-    <!--            <dependency>-->
-    <!--                <groupId>com.101tec</groupId>-->
-    <!--                <artifactId>zkclient</artifactId>-->
-    <!--                <version>${zkclient_version}</version>-->
-    <!--                <exclusions>-->
-    <!--                    <exclusion>-->
-    <!--                        <artifactId>zookeeper</artifactId>-->
-    <!--                        <groupId>org.apache.zookeeper</groupId>-->
-    <!--                    </exclusion>-->
-    <!--                </exclusions>-->
-    <!--            </dependency>-->
-
-    <!--            &lt;!&ndash; <dependency>-->
-    <!--                <groupId>log4j</groupId>-->
-    <!--                <artifactId>log4j</artifactId>-->
-    <!--                <version>${log4j_version}</version>-->
-    <!--            </dependency> &ndash;&gt;-->
-    <!--            <dependency>-->
-    <!--                <groupId>org.slf4j</groupId>-->
-    <!--                <artifactId>slf4j-api</artifactId>-->
-    <!--                <version>${slf4j_version}</version>-->
-    <!--            </dependency>-->
-    <!--            <dependency>-->
-    <!--                <groupId>commons-logging</groupId>-->
-    <!--                <artifactId>commons-logging</artifactId>-->
-    <!--                <version>${commons-logging}</version>-->
-    <!--            </dependency>-->
-    <!--        </dependencies>-->
-    <!--    </dependencyManagement>-->
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

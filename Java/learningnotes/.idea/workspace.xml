@@ -5,25 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402f1a93-077d-4db0-a4c4-d669f3e97f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/controller/DubboConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/dubbo.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/dubbo/dubbo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/dubbo/provider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/log4.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/DubboProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/service/ConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/DubboProviderApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/DubboConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/DubboConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/controller/DubboConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/service/ProviderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/service/ProviderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/dubbo/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/dubbo/consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/DubboProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/DubboProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/service/ProviderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/service/ProviderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/service/ProviderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/resources/dubbo/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/resources/dubbo/provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/dubbo/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/dubbo/provider.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/DubboProviderApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/configs/PropertiesConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/configs/PropertiesConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/service/ProviderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/service/ProviderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/service/ProviderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-service/dubbo-service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dubbo-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,6 +112,8 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -115,10 +121,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -132,16 +139,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DubboProviderApp">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.DubboProviderApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,7 +174,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DubboProviderApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="DubboProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="dubbo-provider" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.dubboprovider.DubboProviderApplication" />
       <method v="2">
@@ -204,10 +209,10 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SpringDemoApplicationTests.contextLoads" />
-      <item itemvalue="Spring Boot.DubboProviderApp" />
+      <item itemvalue="Spring Boot.DubboConsumerApplication" />
       <item itemvalue="Spring Boot.SpringAopApplication" />
       <item itemvalue="Spring Boot.SpringDemoApplication" />
-      <item itemvalue="Spring Boot.DubboConsumerApplication" />
+      <item itemvalue="Spring Boot.DubboProviderApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -237,7 +242,8 @@
       <workItem from="1617029717974" duration="366000" />
       <workItem from="1617030136668" duration="204000" />
       <workItem from="1617073061044" duration="3400000" />
-      <workItem from="1617082219552" duration="3086000" />
+      <workItem from="1617082219552" duration="5294000" />
+      <workItem from="1617089835576" duration="1443000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1617083089633</created>
@@ -267,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617083269582</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update code">
+      <created>1617085542998</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617085542998</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
