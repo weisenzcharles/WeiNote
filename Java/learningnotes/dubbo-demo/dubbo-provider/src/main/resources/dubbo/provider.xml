@@ -6,19 +6,7 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd
         http://code.alibabatech.com/schema/dubbo
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
-    <!--    <dubbo:monitor protocol="registry"/>-->
-
-    <!--    &lt;!&ndash;dubbo这个服务所要暴露的服务地址所对应的注册中心&ndash;&gt;-->
-    <!--    &lt;!&ndash;<dubbo:registry address="N/A"/>&ndash;&gt;-->
-    <!--    <dubbo:registry address="N/A"/>-->
-
-    <!--    &lt;!&ndash;当前服务发布所依赖的协议；webserovice、Thrift、Hessain、http&ndash;&gt;-->
-    <!--    <dubbo:protocol name="dubbo" port="20880"/>-->
-
     <!--服务发布的配置，需要暴露的服务接口-->
     <dubbo:service interface="org.charles.learning.dubboprovider.service.ProviderService" ref="providerService"/>
-
-    <!--    &lt;!&ndash;Bean bean定义&ndash;&gt;-->
-    <!--    <bean id="providerService" class="org.charles.learning.dubboprovider.service.ProviderServiceImpl"/>-->
 
 </beans>
