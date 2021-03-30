@@ -28,5 +28,4 @@ bld/
 
 /.idea/
 /target/
-*idea/
-*target*/
+/.idea/

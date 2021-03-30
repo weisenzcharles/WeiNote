@@ -5,30 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402f1a93-077d-4db0-a4c4-d669f3e97f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/learningnotes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learningnotes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/java/org/charles/learning/springaop/MyBeanFactoryPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/java/org/charles/learning/springaop/MyBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/java/org/charles/learning/springaop/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/java/org/charles/learning/springaop/SpringAopApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/java/org/charles/learning/springaop/model/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/java/org/charles/learning/springaop/model/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/java/org/charles/learning/springaop/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/resources/test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/charles/learning/Foo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/charles/learning/JVMTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/charles/learning/parametertrans/parametertrans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learningnotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learningnotes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learningnotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/learningnotes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/dubbo-provider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/resources/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/resources/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/target/classes/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/target/classes/test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/charles/learning/Foo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/charles/learning/JVMTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/charles/learning/parametertrans/parametertrans.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +124,14 @@
       <recent name="com.charles.learningnodes.springaop" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringAopApplication (1)">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringAopApplication">
     <configuration name="BeanLifeCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.charles.learningnodes.springaop.BeanLifeCycle" />
       <module name="spring-aop" />
@@ -195,22 +197,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAopApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringAopApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-aop-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.charles.learning.springaop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springaop.SpringAopApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-aop" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.charles.learningnodes.springaop.SpringAopApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springaop.SpringAopApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringTestDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springtestdemo.SpringTestDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,11 +224,11 @@
       <item itemvalue="Application.Foo" />
       <item itemvalue="Application.JVMTest" />
       <item itemvalue="Spring Boot.SpringAopApplication" />
+      <item itemvalue="Spring Boot.SpringTestDemoApplication" />
       <item itemvalue="Spring Boot.SpringAopApplication (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringAopApplication (1)" />
         <item itemvalue="Application.BeanTest" />
         <item itemvalue="Application.BeanLifeCycle" />
         <item itemvalue="Application.JVMTest" />
@@ -252,6 +255,8 @@
       <workItem from="1615264317421" duration="23862000" />
       <workItem from="1617029717974" duration="366000" />
       <workItem from="1617030136668" duration="204000" />
+      <workItem from="1617073061044" duration="3400000" />
+      <workItem from="1617082219552" duration="809000" />
     </task>
     <servers />
   </component>

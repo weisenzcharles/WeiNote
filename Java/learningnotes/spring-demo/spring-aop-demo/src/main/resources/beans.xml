@@ -16,6 +16,6 @@
     </bean>
 
     <bean id="person" class="org.charles.learning.springaop.model.Person" init-method="myInit"
-          destroy-method="myDestory" scope="singleton" p:name="张三" p:address="广州" />
+          destroy-method="myDestory" scope="singleton" p:name="张三" p:address="广州"/>
 
 </beans>

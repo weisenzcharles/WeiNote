@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jvm-class-loader" />
+        <module name="spring-redis-demo" />
         <module name="netty-demo" />
         <module name="dubbo-provider" />
         <module name="learning-notes" />
@@ -21,6 +22,8 @@
       <module name="dubbo-consumer" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-aop-demo" options="-parameters" />
+      <module name="spring-demo" options="-parameters" />
+      <module name="spring-redis-demo" options="-parameters" />
     </option>
   </component>
 </project>
