@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402f1a93-077d-4db0-a4c4-d669f3e97f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/service/ConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/DubboConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/DubboConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/controller/DubboConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/service/ProviderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/java/org/charles/learning/dubboconsumer/service/ProviderServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/dubbo/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/dubbo/consumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/DubboProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/DubboProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/service/ProviderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/service/ProviderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/java/org/charles/learning/dubboprovider/service/ProviderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/resources/dubbo/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/resources/dubbo/provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/dubbo/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/dubbo/provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/DubboProviderApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/configs/PropertiesConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/configs/PropertiesConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/service/ProviderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/service/ProviderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/org/charles/learning/dubboprovider/service/ProviderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-service/dubbo-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +221,7 @@
       <workItem from="1617030136668" duration="204000" />
       <workItem from="1617073061044" duration="3400000" />
       <workItem from="1617082219552" duration="5294000" />
-      <workItem from="1617089835576" duration="1443000" />
+      <workItem from="1617089835576" duration="2124000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1617083089633</created>
