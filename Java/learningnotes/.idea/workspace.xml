@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402f1a93-077d-4db0-a4c4-d669f3e97f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/dubbo-provider.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/resources/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-aop-demo/src/main/resources/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/target/classes/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-aop-demo/target/classes/test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/charles/learning/Foo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/charles/learning/JVMTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/charles/learning/parametertrans/parametertrans.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,8 +239,16 @@
       <workItem from="1617029717974" duration="366000" />
       <workItem from="1617030136668" duration="204000" />
       <workItem from="1617073061044" duration="3400000" />
-      <workItem from="1617082219552" duration="809000" />
+      <workItem from="1617082219552" duration="940000" />
     </task>
+    <task id="LOCAL-00001" summary="update code">
+      <created>1617083089633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617083089633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -311,6 +302,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update code" />
+    <option name="LAST_COMMIT_MESSAGE" value="update code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

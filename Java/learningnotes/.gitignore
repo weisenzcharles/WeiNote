@@ -29,3 +29,5 @@ bld/
 /.idea/
 /target/
 /.idea/
+/*.mvn/
+/.mvn/
