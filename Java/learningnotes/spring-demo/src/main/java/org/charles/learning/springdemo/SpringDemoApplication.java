@@ -1,13 +1,13 @@
-package org.charles.learning.springtestdemo;
+package org.charles.learning.springdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringTestDemoApplication {
+public class SpringDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringTestDemoApplication.class, args);
+        SpringApplication.run(SpringDemoApplication.class, args);
     }
 
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -12,14 +13,20 @@
         <module name="dubbo-provider" />
         <module name="learning-notes" />
         <module name="spring-aop" />
-        <module name="spring-aop-demo" />
         <module name="dubbo-consumer" />
+      </profile>
+      <profile name="Annotation profile for learning-notes" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-aop-demo" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-aop-demo" options="-parameters" />
       <module name="spring-demo" options="-parameters" />

@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402f1a93-077d-4db0-a4c4-d669f3e97f6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dubbo-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/main/java/org/charles/learning/springtestdemo/SpringTestDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/org/charles/learning/springdemo/SpringDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/src/test/java/org/charles/learning/springtestdemo/SpringTestDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/test/java/org/charles/learning/springdemo/SpringDemoApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,59 +120,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringAopApplication">
-    <configuration name="BeanLifeCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.charles.learningnodes.springaop.BeanLifeCycle" />
-      <module name="spring-aop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.charles.learningnodes.springaop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.charles.learningnodes.springaop.BeanTest" />
-      <module name="spring-aop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.charles.learningnodes.springaop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Foo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.charles.learning.Foo" />
-      <module name="learningnotes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.charles.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JVMTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.charles.learning.JVMTest" />
-      <module name="learningnotes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.charles.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.DubboProviderApp">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -180,42 +134,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAopApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-aop-demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springaop.SpringAopApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springaop.SpringAopApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringTestDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="SpringDemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springtestdemo.SpringTestDemoApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.charles.learning.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.charles.learning.springdemo" />
+      <option name="MAIN_CLASS_NAME" value="org.charles.learning.springdemo.SpringDemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DubboProviderApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dubbo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.dubboprovider.DubboProviderApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-aop-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.charles.learning.springaop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springaop.SpringAopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.charles.learning.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springdemo.SpringDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BeanLifeCycle" />
-      <item itemvalue="Application.BeanTest" />
-      <item itemvalue="Application.Foo" />
-      <item itemvalue="Application.JVMTest" />
+      <item itemvalue="JUnit.SpringDemoApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.DubboProviderApp" />
       <item itemvalue="Spring Boot.SpringAopApplication" />
-      <item itemvalue="Spring Boot.SpringTestDemoApplication" />
-      <item itemvalue="Spring Boot.SpringAopApplication (1)" />
+      <item itemvalue="Spring Boot.SpringDemoApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BeanTest" />
-        <item itemvalue="Application.BeanLifeCycle" />
-        <item itemvalue="Application.JVMTest" />
-        <item itemvalue="Application.Foo" />
+        <item itemvalue="Spring Boot.SpringDemoApplication" />
+        <item itemvalue="Spring Boot.SpringAopApplication" />
+        <item itemvalue="JUnit.SpringDemoApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +217,7 @@
       <workItem from="1617029717974" duration="366000" />
       <workItem from="1617030136668" duration="204000" />
       <workItem from="1617073061044" duration="3400000" />
-      <workItem from="1617082219552" duration="940000" />
+      <workItem from="1617082219552" duration="2322000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1617083089633</created>
@@ -248,7 +226,28 @@
       <option name="project" value="LOCAL" />
       <updated>1617083089633</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update code">
+      <created>1617083199580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617083199580</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update code">
+      <created>1617083207213</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617083207213</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update code">
+      <created>1617083269582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617083269582</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
