@@ -21,9 +21,8 @@
     </build>
     <modules>
         <module>spring-demo</module>
-        <module>java-demo</module>
         <module>netty-demo</module>
-        <module>java-demo</module>
+        <module>basic-demo</module>
         <module>dubbo-demo</module>
     </modules>
     <dependencies>

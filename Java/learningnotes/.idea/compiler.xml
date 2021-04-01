@@ -11,14 +11,17 @@
         <module name="spring-redis-demo" />
         <module name="netty-demo" />
         <module name="dubbo-provider" />
-        <module name="learning-notes" />
+        <module name="thread-demo" />
         <module name="spring-aop" />
         <module name="spring-aop-demo" />
         <module name="dubbo-service" />
         <module name="dubbo-consumer" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="11">
+      <module name="java-demo" target="8" />
+      <module name="wrapper" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
