@@ -5,60 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402f1a93-077d-4db0-a4c4-d669f3e97f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPDynamicProxy/AOPDynamicProxy.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPDynamicProxy/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPDynamicProxy/Model/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPDynamicProxy/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPDynamicProxy/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPDynamicProxy/Proxy/DynamicProxy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPDynamicProxy/Proxy/ProxyFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPDynamicProxy/Services/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPDynamicProxy/Services/UserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPStaticProxy/AOPStaticProxy.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPStaticProxy/App.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPStaticProxy/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DotNet/LearningNotes/AOPStaticProxy/Services/UserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-demo/src/main/java/org/charles/learning/basic/BitClaculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-demo/src/main/java/org/charles/learning/basic/LiteralNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-demo/thread-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-demo/thread-demo/src/main/java/org/charles/learning/threaddemo/ThreadCall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-demo/thread-demo/src/main/java/org/charles/learning/threaddemo/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-demo/thread-demo/thread-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/.mvn/wrapper/wrapper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPDynamicProxy/AOPDynamicProxy.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPDynamicProxy/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPDynamicProxy/Model/User.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPDynamicProxy/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPDynamicProxy/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPDynamicProxy/Proxy/DynamicProxy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPDynamicProxy/Proxy/ProxyFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPDynamicProxy/Services/IUserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPDynamicProxy/Services/UserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/AOPStaticProxy.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/App.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/Decorator/UserDecorator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/Model/User.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/Properties/AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/Proxy/UserProxy.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/Services/IUserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/AOPStaticProxy/Services/UserService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DotNet/LearingsNotes/LearingsNotes.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/dubbo/consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-consumer/src/main/resources/dubbo/consumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/resources/dubbo/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/src/main/resources/dubbo/provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/dubbo/provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dubbo-demo/dubbo-provider/target/classes/dubbo/provider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-demo/jvm-class-loader/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-demo/jvm-class-loader/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-demo/jvm-class-loader/src/main/java/org/charles/learning/classloader/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-demo/jvm-class-loader/src/main/java/org/charles/learning/classloader/Foo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-demo/jvm-class-loader/src/main/java/org/charles/learning/classloader/JVMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-demo/jvm-class-loader/src/main/java/org/charles/learning/classloader/JVMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-demo/jvm-class-loader/src/main/java/org/charles/learning/classloader/SuperClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-demo/jvm-class-loader/src/main/java/org/charles/learning/classloader/SuperClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-demo/jvm-class-loader/src/main/java/org/charles/learning/classloader/parametertrans.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-demo/jvm-class-loader/src/main/java/org/charles/learning/classloader/parametertrans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-redis-demo/spring-redis-demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +45,7 @@
     <option name="height" value="733" />
   </component>
   <component name="ProjectId" id="1pT4q4PX659f9oRY1C7QM3wLhTs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -152,7 +99,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -169,72 +116,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadCall">
-    <configuration name="BitClaculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.charles.learning.basic.BitClaculator" />
-      <module name="basic-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.charles.learning.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LiteralNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.charles.learning.basic.LiteralNumber" />
-      <module name="basic-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.charles.learning.basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadCall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.charles.learning.threaddemo.ThreadCall" />
-      <module name="thread-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.charles.learning.threaddemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.charles.learning.threaddemo.ThreadTest" />
-      <module name="thread-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.charles.learning.threaddemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.DubboProviderApplication">
     <configuration name="SpringDemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-demo" />
       <extension name="coverage">
@@ -265,26 +147,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="SpringAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-aop-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.charles.learning.springaop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springaop.SpringAopApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="SpringDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.charles.learning.springdemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springdemo.SpringDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringDemoApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.DubboConsumerApplication" />
+      <item itemvalue="Spring Boot.DubboProviderApplication" />
+      <item itemvalue="Spring Boot.SpringAopApplication" />
+      <item itemvalue="Spring Boot.SpringDemoApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadCall" />
-        <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="Application.BitClaculator" />
-        <item itemvalue="Application.LiteralNumber" />
+        <item itemvalue="Spring Boot.SpringDemoApplication" />
+        <item itemvalue="Spring Boot.SpringAopApplication" />
         <item itemvalue="JUnit.SpringDemoApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
@@ -310,10 +209,7 @@
       <workItem from="1617030136668" duration="204000" />
       <workItem from="1617073061044" duration="3400000" />
       <workItem from="1617082219552" duration="5294000" />
-      <workItem from="1617089835576" duration="1443000" />
-      <workItem from="1617103318827" duration="703000" />
-      <workItem from="1617154366267" duration="6426000" />
-      <workItem from="1617192171650" duration="2217000" />
+      <workItem from="1617089835576" duration="2182000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1617083089633</created>
@@ -350,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617085542998</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update code">
+      <created>1617093989731</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617093989731</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -542,15 +445,10 @@
           <line>214</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/basic-demo/thread-demo/src/main/java/org/charles/learning/threaddemo/ThreadCall.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.4/spring-context-5.3.4-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
           <line>1449</line>
-          <properties class="org.springframework.context.support.AbstractApplicationContext">
+          <properties class="org.springframework.context.support.AbstractApplicationContext" method="refreshBeanFactory">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="15" />
@@ -558,7 +456,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4-sources.jar!/org/springframework/beans/factory/support/BeanDefinitionReader.java</url>
           <line>90</line>
-          <properties class="org.springframework.beans.factory.support.BeanDefinitionReader">
+          <properties class="org.springframework.beans.factory.support.BeanDefinitionReader" method="loadBeanDefinitions">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="34" />
