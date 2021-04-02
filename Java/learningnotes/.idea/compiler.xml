@@ -15,7 +15,6 @@
         <module name="spring-aop" />
         <module name="spring-aop-demo" />
         <module name="dubbo-service" />
-        <module name="thread" />
         <module name="dubbo-consumer" />
       </profile>
     </annotationProcessing>
