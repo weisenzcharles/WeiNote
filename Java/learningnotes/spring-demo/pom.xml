@@ -53,6 +53,8 @@
         <module>spring-redis-demo</module>
         <module>spring-jpa-demo</module>
         <module>spring-mongo-demo</module>
+        <module>spring-druid-demo</module>
+        <module>spring-mybaits-demo</module>
     </modules>
 
     <build>

@@ -1,0 +1,11 @@
+datasource:
+  post:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    jdbc-url: jdbc:sqlserver://test.charles.com:1433;DatabaseName=postdata;useunicode=true;characterEncoding=UTF-8
+    username: testuser
+    password: user123456
+  user:
+    driver-class-name: com.mysql.jdbc.Driver
+    jdbc-url: jdbc:mysql://test.charles.com/userdata?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: testuser
+    password: user123456

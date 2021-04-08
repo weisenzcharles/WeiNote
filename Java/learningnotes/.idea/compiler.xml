@@ -8,15 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jvm-class-loader" />
+        <module name="netty-demo" />
+        <module name="dubbo-service" />
+        <module name="spring-mybaits-demo" />
         <module name="spring-redis-demo" />
         <module name="spring-mongo-demo" />
-        <module name="netty-demo" />
         <module name="dubbo-provider" />
         <module name="thread-demo" />
         <module name="spring-jpa-demo" />
         <module name="spring-aop" />
         <module name="spring-aop-demo" />
-        <module name="dubbo-service" />
+        <module name="spring-druid-demo" />
         <module name="dubbo-consumer" />
       </profile>
     </annotationProcessing>
@@ -32,8 +34,10 @@
       <module name="dubbo-service" options="-parameters" />
       <module name="spring-aop-demo" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
+      <module name="spring-druid-demo" options="-parameters" />
       <module name="spring-jpa-demo" options="-parameters" />
       <module name="spring-mongo-demo" options="-parameters" />
+      <module name="spring-mybaits-demo" options="-parameters" />
       <module name="spring-redis-demo" options="-parameters" />
     </option>
   </component>
