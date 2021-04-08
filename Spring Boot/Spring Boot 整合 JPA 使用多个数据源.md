@@ -220,7 +220,7 @@ public class CustomerConfig {
     @Primary
     @Bean(name = "customerEntityManagerFactory")
     public LocalContainerEntityManagerFactoryBean entityManagerFactory(EntityManagerFactoryBuilder builder, @Qualifier("customerDataSource") DataSource dataSource) {
-        return builder.dataSource(dataSource).packages("com.springboot.jpa.customer.data").persistenceUnit("customer").build();
+        return builder.dataSource(dataSource).packages("com.springboot.jpa.customer.models").persistenceUnit("customer").build();
     }
 
     @Primary
@@ -264,7 +264,7 @@ public class ProductConfig {
 
     @Bean(name = "productEntityManagerFactory")
     public LocalContainerEntityManagerFactoryBean barEntityManagerFactory(EntityManagerFactoryBuilder builder, @Qualifier("productDataSource") DataSource dataSource) {
-        return builder.dataSource(dataSource).packages("com.springboot.jpa.product.data").persistenceUnit("product").build();
+        return builder.dataSource(dataSource).packages("com.springboot.jpa.product.models").persistenceUnit("product").build();
     }
 
     @Bean(name = "productTransactionManager")

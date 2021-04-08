@@ -51,6 +51,8 @@
     <modules>
         <module>spring-aop-demo</module>
         <module>spring-redis-demo</module>
+        <module>spring-jpa-demo</module>
+        <module>spring-mongo-demo</module>
     </modules>
 
     <build>

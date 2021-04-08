@@ -1,12 +1,13 @@
-package org.charles.learning.springdemo;
+package org.charles.learning.springjpademo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringDemoApplication {
+public class SpringBootJpaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringDemoApplication.class, args);
+        SpringApplication.run(SpringBootJpaApplication.class, args);
     }
+
 }
