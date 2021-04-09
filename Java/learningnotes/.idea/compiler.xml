@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jvm-class-loader" />
         <module name="netty-demo" />
+        <module name="spring-cheduled-demo" />
         <module name="dubbo-service" />
         <module name="spring-mybaits-demo" />
         <module name="spring-redis-demo" />
@@ -33,6 +34,7 @@
       <module name="dubbo-provider" options="-parameters" />
       <module name="dubbo-service" options="-parameters" />
       <module name="spring-aop-demo" options="-parameters" />
+      <module name="spring-cheduled-demo" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
       <module name="spring-druid-demo" options="-parameters" />
       <module name="spring-jpa-demo" options="-parameters" />

@@ -55,6 +55,7 @@
         <module>spring-mongo-demo</module>
         <module>spring-druid-demo</module>
         <module>spring-mybaits-demo</module>
+        <module>spring-cheduled-demo</module>
     </modules>
 
     <build>

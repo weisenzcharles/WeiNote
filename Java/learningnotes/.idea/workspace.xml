@@ -5,20 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="402f1a93-077d-4db0-a4c4-d669f3e97f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-druid-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-druid-demo/spring-druid-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/spring-mybaits-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis-demo/src/main/java/org/charles/learning/springredisdemo/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis-demo/src/main/java/org/charles/learning/springredisdemo/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis-demo/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cheduled-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cheduled-demo/spring-cheduled-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cheduled-demo/src/main/java/org/charles/learning/springcheduleddemo/ScheduledTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cheduled-demo/src/main/java/org/charles/learning/springcheduleddemo/SpringScheduledApplicaton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-druid-demo/src/main/java/org/charles/learning/springdruiddemo/SpringDruidApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-druid-demo/src/main/java/org/charles/learning/springdruiddemo/config/DruidMonitorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-druid-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/src/main/java/org/charles/learning/springmongodemo/SpringMongoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/src/main/java/org/charles/learning/springmongodemo/service/MongoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/src/main/java/org/charles/learning/springmongodemo/utils/MongoTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/src/main/java/org/charles/learning/springmybatisdemo/SpringMybatisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/src/main/java/org/charles/learning/springmybatisdemo/datasource/PostDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/src/main/java/org/charles/learning/springmybatisdemo/datasource/UserDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis-demo/src/main/java/org/charles/learning/springredisdemo/SpringRedisApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-redis-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-redis-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-druid-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-druid-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-jpa-demo/src/main/java/org/charles/learning/springjpademo/SpringBootJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-jpa-demo/src/main/java/org/charles/learning/springjpademo/SpringJpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-jpa-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-jpa-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/Spring Boot 整合 JPA 使用多个数据源.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/SpringBootJpaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/customer/config/CustomerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/customer/models/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/customer/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/product/config/ProductConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/product/models/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/product/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/test/java/com/springboot/jpa/CustomerDataSourcesTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/test/java/com/springboot/jpa/ProductDataSourcesTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/test/java/com/springboot/jpa/SpringBootJpaApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +144,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -133,20 +161,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootJpaApplication">
-    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.charles.learning.threaddemo.ThreadTest" />
-      <module name="thread-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.charles.learning.threaddemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SpringJpaApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -158,18 +173,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in spring-demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.charles.learning.springdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.charles.learning.springdemo" />
-      <option name="MAIN_CLASS_NAME" value="org.charles.learning.springdemo.SpringDemoApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,7 +208,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringDruidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-druid-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.charles.learning.springdruiddemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springdruiddemo.SpringDruidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-jpa-demo" />
       <extension name="coverage">
         <pattern>
@@ -209,48 +229,40 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springjpademo.SpringBootJpaApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springjpademo.SpringJpaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-mybaits-demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springdemo.SpringDemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-demo" />
+    <configuration name="SpringRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-redis-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.charles.learning.springdemo.*" />
+          <option name="PATTERN" value="org.charles.learning.springredisdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springdemo.SpringDemoApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.charles.learning.springredisdemo.SpringRedisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadTest" />
-      <item itemvalue="JUnit.SpringDemoApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.DubboConsumerApplication" />
       <item itemvalue="Spring Boot.DubboProviderApplication" />
+      <item itemvalue="Spring Boot.SpringDruidApplication" />
+      <item itemvalue="Spring Boot.SpringRedisApplication" />
       <item itemvalue="Spring Boot.SpringAopApplication" />
-      <item itemvalue="Spring Boot.SpringDemoApplication" />
-      <item itemvalue="Spring Boot.SpringBootJpaApplication" />
-      <item itemvalue="Spring Boot.SpringDemoApplication (1)" />
+      <item itemvalue="JUnit.All in spring-demo" />
+      <item itemvalue="Spring Boot.SpringJpaApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SpringDemoApplication" />
+        <item itemvalue="Spring Boot.SpringJpaApplication" />
+        <item itemvalue="JUnit.All in spring-demo" />
         <item itemvalue="Spring Boot.SpringAopApplication" />
-        <item itemvalue="Spring Boot.SpringBootJpaApplication" />
-        <item itemvalue="Application.ThreadTest" />
-        <item itemvalue="JUnit.SpringDemoApplicationTests.contextLoads" />
+        <item itemvalue="Spring Boot.SpringRedisApplication" />
+        <item itemvalue="Spring Boot.SpringDruidApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +291,7 @@
       <workItem from="1617332501175" duration="5457000" />
       <workItem from="1617675054871" duration="97000" />
       <workItem from="1617675189222" duration="593000" />
-      <workItem from="1617774844528" duration="16343000" />
+      <workItem from="1617774844528" duration="23334000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1617083089633</created>
