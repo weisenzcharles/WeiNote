@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="402f1a93-077d-4db0-a4c4-d669f3e97f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cheduled-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cheduled-demo/spring-cheduled-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cheduled-demo/src/main/java/org/charles/learning/springcheduleddemo/ScheduledTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-cheduled-demo/src/main/java/org/charles/learning/springcheduleddemo/SpringScheduledApplicaton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-druid-demo/src/main/java/org/charles/learning/springdruiddemo/SpringDruidApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-druid-demo/src/main/java/org/charles/learning/springdruiddemo/config/DruidMonitorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-druid-demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/src/main/java/org/charles/learning/springmongodemo/SpringMongoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/src/main/java/org/charles/learning/springmongodemo/service/MongoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/src/main/java/org/charles/learning/springmongodemo/utils/MongoTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/src/main/java/org/charles/learning/springmybatisdemo/SpringMybatisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/src/main/java/org/charles/learning/springmybatisdemo/datasource/PostDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/src/main/java/org/charles/learning/springmybatisdemo/datasource/UserDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-demo/spring-redis-demo/src/main/java/org/charles/learning/springredisdemo/SpringRedisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-druid-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-druid-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-jpa-demo/src/main/java/org/charles/learning/springjpademo/SpringBootJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-jpa-demo/src/main/java/org/charles/learning/springjpademo/SpringJpaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-jpa-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-jpa-demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-mongo-demo/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/spring-mybaits-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/Spring Boot 整合 JPA 使用多个数据源.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/SpringBootJpaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/customer/config/CustomerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/customer/models/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/customer/repository/CustomerRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/product/config/ProductConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/product/models/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/java/com/springboot/jpa/product/repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/test/java/com/springboot/jpa/CustomerDataSourcesTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/test/java/com/springboot/jpa/ProductDataSourcesTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Spring Boot/spring-boot-jpa/src/test/java/com/springboot/jpa/SpringBootJpaApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="402f1a93-077d-4db0-a4c4-d669f3e97f6c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -291,7 +248,7 @@
       <workItem from="1617332501175" duration="5457000" />
       <workItem from="1617675054871" duration="97000" />
       <workItem from="1617675189222" duration="593000" />
-      <workItem from="1617774844528" duration="23334000" />
+      <workItem from="1617774844528" duration="24093000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1617083089633</created>
