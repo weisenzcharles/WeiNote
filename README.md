@@ -15,8 +15,18 @@
 1、[Google Guava 中布隆过滤器的使用](/Java/Google%20Guava%20中布隆过滤器的使用.md)
 
 2、[Java 实现简单的 RPC 框架](/Java/Java%20实现简单的%20RPC%20框架.md)
-#### Spring Boot
-1、[Spring Boot 整合 JPA 使用多个数据源](/Spring%20Boot/Spring%20Boot%20整合%20JPA%20使用多个数据源.md)
+##### Spring Boot
+1、[Spring Boot 整合 JPA 使用多个数据源](/Java/Spring%20Boot/Spring%20Boot%20整合%20JPA%20使用多个数据源.md)
+
+2、[Spring Boot 项目集成 Alibaba Druid](/Java/Spring%20Boot/Spring%20Boot%20项目集成%20Alibaba%20Druid.md)
+
+3、[Spring Boot 项目中使用 MongoDB](/Java/Spring%20Boot/Spring%20Boot%20项目中使用%20MongoDB.md)
+
+4、[Spring Boot 项目中使用 Mybatis 连接多个数据库](/Java/Spring%20Boot/Spring%20Boot%20项目中使用%20Mybatis%20连接多个数据库.md)
+
+5、[Spring Boot 项目中使用 Redis](/Java/Spring%20Boot/Spring%20Boot%20项目中使用%20Redis.md)
+
+6、[Spring Boot 使用 @Scheduled 注解创建定时任务](/Java/Spring%20Boot/Spring%20Boot%20使用%20@Scheduled%20注解创建定时任务.md)
 
 #### Node.js
 1、[Node.js 操作 OSX 系统麦克风、扬声器音量](/Node/Node.js%20操作%20OSX%20系统麦克风、扬声器音量.md)
